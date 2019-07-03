@@ -12,7 +12,7 @@ def hello_world():
 
 
 
-app = flask.Flask(__name__)
+# app = flask.Flask(__name__)
 app.config["DEBUG"] = True
 
 def dict_factory(cursor, row):
