@@ -1,13 +1,23 @@
 from flask import Flask
-from flask import request, jsonify
-import sqlite3
-
-
 app = Flask(__name__)
 
-@app.route('home/')
+@app.route('/')
 def hello_world():
-    return '<h1>Hello there, World!</h1>'
+    return 'Hello, World!'
+
+
+
+
+# from flask import Flask
+# from flask import request, jsonify
+# import sqlite3
+
+
+# app = Flask(__name__)
+
+# @app.route('home/')
+# def hello_world():
+#     return '<h1>Hello there, World!</h1>'
 
 
 
