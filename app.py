@@ -9,7 +9,6 @@
 
 import flask
 from flask import request, jsonify
-import sqlite3
 import markovify
 
 
@@ -109,4 +108,4 @@ def home():
 
 #     return jsonify(results)
 
-app.run()
+# app.run()
